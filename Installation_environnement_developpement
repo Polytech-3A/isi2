@@ -1,0 +1,14 @@
+cat /etc/debian_version 
+sudo apt update && sudo apt upgrade
+sudo apt install curl
+sudo apt install wget
+sudo apt install git
+sudo apt install php
+php -v
+apache2ctl -v
+sudo apt install php8.4-{pdo,mysql,cli,common,imap,ldap,xml,fpm,curl,mbstring,zip}
+sudo apt install unzip
+sudo apt update && sudo apt upgrade
+sudo apt install mariadb-server -y
+sudo service mariadb start
+sudo mariadb -v
